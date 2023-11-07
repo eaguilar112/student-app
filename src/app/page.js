@@ -1,4 +1,9 @@
 import Image from 'next/image'
+import React from 'react'
+import Navbar from 'student-app\src\app\components\';
+import StudentList from 'student-app\src\app\components\';
+import Footer from 'student-app\src\app\components\';
+import AddStudent from 'student-app\src\app\components\';
 
 export default function Home() {
   return (
