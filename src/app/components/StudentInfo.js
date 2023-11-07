@@ -1,6 +1,6 @@
 import React from 'react';
 
-const StudentList = ({ students }) => {
+const StudentInfo = ({ students }) => {
   return (
     <div>
       <ul>
