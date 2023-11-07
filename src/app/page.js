@@ -1,9 +1,9 @@
-import Image from 'next/image'
 import React from 'react'
-import Navbar from 'student-app\src\app\components\';
-import StudentList from 'student-app\src\app\components\';
-import Footer from 'student-app\src\app\components\';
-import AddStudent from 'student-app\src\app\components\';
+import Link from 'next/link'
+import Navbar from 'student-app\src\app\components\Navbar.js'
+import StudentList from 'student-app\src\app\components\StudentList.js'
+import Footer from 'student-app\src\app\components\Footer.js'
+import AddStudent from 'student-app\src\app\components\AddStudent.js'
 
 export default function Home() {
   const [students, setStudents] = React.useState(studentsData);
