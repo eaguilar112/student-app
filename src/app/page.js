@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from 'student-app\src\app\components\Navbar.jsx';
-import StudentList from 'student-app\src\app\components\StudentList.jsx';
-import Footer from 'student-app\src\app\components\Footer.jsx';
-import StudentForm from 'student-app\src\app\components\AddStudent.jsx';
+import Navbar from 'student-app\src\components\Navbar.jsx';
+import StudentList from 'student-app\src\components\StudentList.jsx';
+import Footer from 'student-app\src\components\Footer.jsx';
+import StudentForm from 'student-app\src\components\AddStudent.jsx';
 
 export default function Home() {
   const [students, setStudents] = React.useState(studentsData);
